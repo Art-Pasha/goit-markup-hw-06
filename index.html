@@ -43,67 +43,7 @@
                 </svg>
             </button>
         </div>
-        <div class="mobile-menu" data-menu>
-            <div class="container mobile-menu-container">
-                <button class="mobile-menu-close" data-menu-close>
-                    <svg width="8" height="8">
-                        <use href="./images/icons.svg#icon-close-black"></use>
-                    </svg>
-                </button>
         
-                <nav class="mobile-menu-nav">
-                    <ul class="mobile-nav-list">
-                        <li><a href="./index.html" class="mobile-nav-link current">Studio</a></li>
-                        <li><a href="" class="mobile-nav-link">Portfolio</a></li>
-                        <li><a href="" class="mobile-nav-link">Contacts</a></li>
-                    </ul>
-                </nav>
-        
-                <div class="mobile-contacts-wrap">
-                    <address class="mobile-contacts">
-                        <ul class="mobile-contacts-list">
-                            <li>
-                                <a href="tel:+110001111111" class="mobile-contacts-link accent">+11 (000) 111-11-11</a>
-                            </li>
-                            <li>
-                                <a href="mailto:info@devstudio.com" class="mobile-contacts-link">info@devstudio.com</a>
-                            </li>
-                        </ul>
-                    </address>
-        
-                    <ul class="mobile-social-list">
-                        <li class="mobile-social-item">
-                            <a href="" class="mobile-social-link">
-                                <svg class="mobile-social-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mobile-social-item">
-                            <a href="" class="mobile-social-link">
-                                <svg class="mobile-social-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mobile-social-item">
-                            <a href="" class="mobile-social-link">
-                                <svg class="mobile-social-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mobile-social-item">
-                            <a href="" class="mobile-social-link">
-                                <svg class="mobile-social-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </header>
 
     <main>
@@ -167,7 +107,7 @@
                 <ul class="team-list">
                     <li class="team-card">
                         <img src="./images/mark-guerrero.jpg" 
-                        
+                        srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero@2x.jpg 2x"
                         alt="Mark Guerrero - Product Designer" 
                         width="264">
                         <div class="team-thumb">
@@ -198,7 +138,8 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/tom-ford.jpg" 
+                        <img src="./images/tom-ford.jpg"
+                        srcset="./images/tom-ford.jpg 1x, ./images/tom-ford@2x.jpg 2x" 
                         alt="Tom Ford - Frontend Developer" 
                         width="264">
                         <div class="team-thumb">
@@ -229,7 +170,8 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/camila-garcia.jpg" 
+                        <img src="./images/camila-garcia.jpg"
+                        srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia@2x.jpg 2x"  
                         alt="Camila Garcia - Marketing" 
                         width="264">
                         <div class="team-thumb">
@@ -260,7 +202,8 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/daniel-wilson.jpg" 
+                        <img src="./images/daniel-wilson.jpg"
+                        srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson@2x.jpg 2x"  
                         alt="Daniel Wilson - UI Designer" 
                         width="264">
                         <div class="team-thumb">
@@ -301,7 +244,8 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
                         <div class="portfolio-cover-block">
-                            <img src="./images/banking-app.jpg" 
+                            <img src="./images/banking-app.jpg"
+                            srcset="./images/banking-app.jpg 1x, ./images/banking-app@2x.jpg 2x"  
                             alt="Banking App mobile screens" 
                             width="360">
                             <p class="portfolio-overlay"></p>
@@ -313,7 +257,8 @@
                     </li>                
                     <li class="portfolio-item">
                         <div class="portfolio-cover-block">
-                            <img src="./images/cashless-payment.jpg" 
+                            <img src="./images/cashless-payment.jpg"
+                            srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment@2x.jpg 2x"  
                             alt="Cashless Payment terminal and QR code" 
                             width="360">
                             <p class="portfolio-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -327,7 +272,8 @@
                     </li>  
                     <li class="portfolio-item">
                         <div class="portfolio-cover-block">
-                            <img src="./images/meditation-app.jpg" 
+                            <img src="./images/meditation-app.jpg"
+                            srcset="./images/meditation-app.jpg 1x, ./images/meditation-app@2x.jpg 2x"  
                             alt="Meditation App on laptop and phone screens" 
                             width="360">
                             <p class="portfolio-overlay"></p>
@@ -339,7 +285,8 @@
                     </li>            
                     <li class="portfolio-item">
                         <div class="portfolio-cover-block">
-                            <img src="./images/taxi-service.jpg" 
+                            <img src="./images/taxi-service.jpg"
+                            srcset="./images/taxi-service.jpg 1x, ./images/taxi-service@2x.jpg 2x" 
                             alt="Taxi Service app in car interior" 
                             width="360">
                             <p class="portfolio-overlay"></p>
@@ -352,6 +299,7 @@
                     <li class="portfolio-item">
                         <div class="portfolio-cover-block">
                             <img src="./images/screen-illustrations.jpg"
+                            srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustrations@2x.jpg 2x" 
                             alt="Mobile screen illustrations with moon and futuristic elements" 
                             width="360">
                             <p class="portfolio-overlay"></p>
@@ -363,7 +311,8 @@
                     </li>           
                     <li class="portfolio-item"> 
                         <div class="portfolio-cover-block">
-                            <img src="./images/online-courses.jpg" 
+                            <img src="./images/online-courses.jpg"
+                            srcset="./images/online-courses.jpg 1x, ./images/online-courses@2x.jpg 2x"  
                             alt="Woman studying online courses outdoors" 
                             width="360">
                             <p class="portfolio-overlay"></p>
@@ -494,6 +443,68 @@
     
                 <button type="submit" class="btn modal-submit-btn">Send</button>
             </form>
+        </div>
+    </div>
+    <!-- mobile-menu -->
+    <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+            <button class="mobile-menu-close" data-menu-close>
+                <svg width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+    
+            <nav class="mobile-menu-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="./index.html" class="mobile-nav-link current">Studio</a></li>
+                    <li><a href="" class="mobile-nav-link">Portfolio</a></li>
+                    <li><a href="" class="mobile-nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+    
+            <div class="mobile-contacts-wrap">
+                <address class="mobile-contacts">
+                    <ul class="mobile-contacts-list">
+                        <li>
+                            <a href="tel:+110001111111" class="mobile-contacts-link accent">+11 (000) 111-11-11</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="mobile-contacts-link">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+    
+                <ul class="mobile-social-list">
+                    <li class="mobile-social-item">
+                        <a href="" class="mobile-social-link">
+                            <svg class="mobile-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-item">
+                        <a href="" class="mobile-social-link">
+                            <svg class="mobile-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-item">
+                        <a href="" class="mobile-social-link">
+                            <svg class="mobile-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-item">
+                        <a href="" class="mobile-social-link">
+                            <svg class="mobile-social-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
