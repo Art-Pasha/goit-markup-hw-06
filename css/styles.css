@@ -264,7 +264,7 @@ button {
     margin: 0 auto;
 }
 
-@media (min-resolution: 192dpi) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url('../images/hero-mobile@2x.jpg');
@@ -320,7 +320,7 @@ button {
         margin: 0 auto 36px auto;
     }
 
-    @media (min-resolution: 192dpi) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url('../images/hero-tablet@2x.jpg');
@@ -340,7 +340,7 @@ button {
         margin: 0 auto 48px auto;
     }
 
-    @media (min-resolution: 192dpi) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url('../images/hero-desktop@2x.jpg');
