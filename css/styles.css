@@ -505,7 +505,7 @@ button {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        gap: 72px 24px;
+        gap: 64px 24px;
     }
 }
 
@@ -557,7 +557,7 @@ button {
     }
 
     .portfolio-item {
-        width: calc((100% - 48px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
 
@@ -567,7 +567,7 @@ button {
         list-style: none;
         display: flex;
         flex-direction: row;
-        gap: 24px;
+        gap: 48px 24px;
     }
 
     .portfolio-item {
