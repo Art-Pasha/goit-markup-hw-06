@@ -535,11 +535,11 @@ button {
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 48px
 }
 
 .portfolio-item {
+    width: 100%;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
         0 1px 1px rgba(46, 47, 66, 0.16),
         0 1px 6px rgba(46, 47, 66, 0.08);
@@ -552,6 +552,7 @@ button {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
         gap: 72px 24px;
     }
 
@@ -1211,6 +1212,8 @@ button {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
