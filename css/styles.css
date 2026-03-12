@@ -264,7 +264,8 @@ button {
     margin: 0 auto;
 }
 
-@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url('../images/hero-mobile@2x.jpg');
@@ -320,7 +321,8 @@ button {
         margin: 0 auto 36px auto;
     }
 
-    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url('../images/hero-tablet@2x.jpg');
@@ -340,7 +342,8 @@ button {
         margin: 0 auto 48px auto;
     }
 
-    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url('../images/hero-desktop@2x.jpg');
@@ -546,14 +549,14 @@ button {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-img{
-    height: 280px; 
-    object-fit: cover;   
+.portfolio-img {
+    height: 280px;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
 
-    .portfolio-img{
+    .portfolio-img {
         width: 356px;
         height: 300px;
     }
@@ -573,10 +576,10 @@ button {
 
 @media screen and (min-width: 1158px) {
 
-    .portfolio-img{
+    .portfolio-img {
         width: 100%;
         height: 300px;
-    }   
+    }
 
     .portfolio-list {
         list-style: none;
@@ -826,7 +829,7 @@ button {
         flex-wrap: wrap;
         align-items: baseline;
         gap: 72px 24px;
-        text-align: left;        
+        text-align: left;
     }
 
     .footer-left {
